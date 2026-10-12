@@ -9,6 +9,7 @@ import {
   Download,
   Users,
 } from "lucide-react";
+import logo from "../../../public/logo.png";
 
 import { useList } from "../hooks/useResource";
 import { useProfile } from "../hooks/useAuth";
@@ -115,11 +116,11 @@ export default function Overview() {
 
       {/* Greeting */}
       <h1 className="text-2xl font-semibold text-stone-900">
-        {getGreeting()}, Super Admin
+        {getGreeting()}, Admin
       </h1>
 
       <p className="mb-6 text-sm text-stone-500">
-        Here is what is happening across TechTorch content today.
+        Here is what is happening across TechTorch content today
       </p>
 
       {/* Dashboard Cards */}

@@ -87,7 +87,7 @@ function LinkedInIcon() {
         items-center
         justify-center
         rounded-[3px]
-        bg-[#7a0046]
+        bg-[#730042]
         text-white
       "
     >
@@ -225,7 +225,7 @@ export default function Footer() {
 
               <SocialIcon
                 label="LinkedIn"
-                href="https://www.linkedin.com/company/techtorch_sol/posts/?feedView=all"
+                href="https://www.linkedin.com/company/techtorch_sol/                                                                                                                                                                                                                                                                                                                                                     "
               >
                 <LinkedInIcon />
               </SocialIcon>
